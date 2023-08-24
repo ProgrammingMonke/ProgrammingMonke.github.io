@@ -1,20 +1,67 @@
 body {
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: 'Varela Round';
     background-color: #BA4949;
     color: white;
-  }
-  
-  button {
-    background-color: #333;
-    color: white;
+}
+
+button {
+    background-color: white;
+    color: BA4949;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
     margin: 5px;
-  }
-  
-  button:hover {
-    background-color: #555;
-  }
-  
+}
+
+button:hover {
+    background-color: #dad4d4;
+}
+
+.header {
+    background-color: #BA4949;
+    color: #fff;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+}
+
+.times {
+    padding: 5px;
+    width: 50%;
+    margin: auto; /* Center the entire times div horizontally */
+    display: flex;
+    justify-content: space-around; /* Add space between the boxes */
+}
+
+.time-box {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1; /* Distribute available space equally between the boxes */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px; /* Add a gap between the boxes */
+    background-color: #d86262;
+    border-radius: 5px;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adjust the gap between buttons */
+}
+
+#startButton{
+    display: block;
+}
+#pauseButton{
+    display: none;
+}
+#breakButton{
+    display: none;
+}
